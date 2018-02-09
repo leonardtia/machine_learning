@@ -46,6 +46,7 @@ def logistic(x,y,test_x,test_y, C=1,I=0.5,L='l2',isProba=True):
     return F1,P,R,tn, fp, fn, tp
 
 
+
 def kfold(X,y,c=1,i=0.5,k=10,l='l2'):
     '''
     交叉验证，找出最合适的参数
